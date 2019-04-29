@@ -1,70 +1,86 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{13}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem{andersen2012kinect}
+\bibitem[Andersen et~al.(2012)Andersen, Jensen, Lisouski, Mortensen, Hansen,
+  Gregersen, and Ahrendt]{andersen2012kinect}
 Michael~Riis Andersen, Thomas Jensen, Pavel Lisouski, Anders~Krogh Mortensen,
   Mikkel~Kragh Hansen, Torben Gregersen, and Peter Ahrendt.
 \newblock Kinect depth sensor evaluation for computer vision applications.
 \newblock Technical report, Department of Engineering, Aarhus University, 2012.
 
-\bibitem{diploma}
+\bibitem[Balon(1990)]{diploma}
 Andreja Balon.
 \newblock Vizualizacija.
 \newblock Diplomska naloga, Fakulteta za elektrotehniko in
   ra\v{c}unalni\v{s}tvo, Univerza v Ljubljani, 1990.
 
-\bibitem{knuth}
-Donald knuth.
+\bibitem[Kljun et~al.(2018)Kljun, Krulec, \v{C}opi\v{c} Pucihar, and
+  Solina]{Kljun2018}
+Matja\v{z} Kljun, Rok Krulec, Klen \v{C}opi\v{c} Pucihar, and Franc Solina.
+\newblock Persuasive technologies in m-learning for training professionals: how
+  to keep learners engaged with adaptive triggering.
+\newblock \emph{{IEEE} Transactions on Learning Technologies}, pages 1--1,
+  2018.
+\newblock URL \url{https://doi.org/10.1109/tlt.2018.2840716}.
+
+\bibitem[Knuth()]{knuth}
+Donald Knuth.
 \newblock Dosegljivo: \url{https://sl.wikipedia.org/wiki/Donald_Knuth}.
 \newblock [Dostopano: 1. 10. 2016].
 
-\bibitem{knuth1983simple}
+\bibitem[Knuth and Bendix(1983)]{knuth1983simple}
 Donald~E Knuth and Peter~B Bendix.
 \newblock Simple word problems in universal algebras.
-\newblock In Jörg~H. Siekmann and Graham Wrightson, editors, {\em Automation
+\newblock In Jörg~H. Siekmann and Graham Wrightson, editors, \emph{Automation
   of Reasoning: Classical papers on computational logic 1957--1966}, pages
   342--376. Springer, 1983.
 
-\bibitem{lamport}
+\bibitem[Lamport(1986)]{lamport}
 Leslie Lamport.
-\newblock {\em LaTEX: A Document Preparation System}.
+\newblock \emph{LaTEX: A Document Preparation System}.
 \newblock Addison-Wesley, 1986.
 
-\bibitem{nenajkrajsi}
+\bibitem[Oetiker et~al.(2006)Oetiker, Partl, Hyna, and Schlegl]{nenajkrajsi}
 Tobias Oetiker, Hubert Partl, Irene Hyna, and Elisabeth Schlegl.
 \newblock Ne najkraj\v{s}i uvod v {\LaTeX 2$\epsilon$}.
 \newblock Dosegljivo:
   \url{http://www-lp.fmf.uni-lj.si/plestenjak/vaje/latex/lshort.pdf}, 2006.
 \newblock [Dostopano: 1. 10. 2016].
 
-\bibitem{bib}
+\bibitem[Patashnik(1988)]{bib}
 Oren Patashnik.
 \newblock {BibTeXing}.
 \newblock Dosegljivo: \url{http://bibtexml.sourceforge.net/btxdoc.pdf}, 1988.
 \newblock [Dostopano 5. 6. 2016].
 
-\bibitem{pdfa}
-{PDF/A}.
+\bibitem[pdfa()]{pdfa}
+pdfa.
+\newblock {PDF/A}.
 \newblock Dosegljivo: \url{http://en.wikipedia.org/wiki/PDF/A}, 2005.
 \newblock [Dostopano: 5. 6. 2016].
 
-\bibitem{poglavje_springer}
+\bibitem[Peer and Batagelj(2009)]{poglavje_springer}
 Peter Peer and Borut Batagelj.
 \newblock Art---a perfect testbed for computer vision related research.
-\newblock In {\em Recent Advances in Multimedia Signal Processing and
+\newblock In \emph{Recent Advances in Multimedia Signal Processing and
   Communications}, pages 611--629. Springer, 2009.
 
-\bibitem{leonardo}
+\bibitem[Solina(2004)]{leonardo}
 Franc Solina.
 \newblock 15 seconds of fame.
-\newblock {\em Leonardo}, 37(2):105--110, 2004.
+\newblock \emph{Leonardo}, 37\penalty0 (2):\penalty0 105--110, 2004.
 
-\bibitem{video}
+\bibitem[Solina(2015)]{video}
 Franc Solina.
 \newblock Light fountain---an interactive art installation.
 \newblock Dosegljivo: \url{https://youtu.be/CS6x-QwJywg}, 2015.
 \newblock [Dostopano: 9. 10. 2015].
 
-\bibitem{slovarcek}
+\bibitem[(ured.)()]{slovarcek}
 Matjaž~Gams (ured.).
 \newblock {DIS} slovarček, slovar računalniških izrazov, verzija 2.1.70.
 \newblock Dosegljivo: \url{http://dis-slovarcek.ijs.si}.

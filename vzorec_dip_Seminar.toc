@@ -9,7 +9,7 @@
 \contentsline {chapter}{\numberline {3}Matemati\IeC {\v c}no okolje in sklicevanje na besedilne konstrukte}{5}{chapter.3}
 \contentsline {chapter}{\numberline {4}Plovke: slike in tabele}{7}{chapter.4}
 \contentsline {section}{\numberline {4.1}Formati slik}{8}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Podnapisi k slikam in tabelam}{10}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.1}Podnapisi k slikam in tabelam}{9}{subsection.4.1.1}
 \contentsline {chapter}{\numberline {5}Struktura strokovnih besedil}{11}{chapter.5}
 \contentsline {chapter}{\numberline {6}Pogoste napake pri pisanju v sloven\IeC {\v s}\IeC {\v c}ini}{13}{chapter.6}
 \contentsline {chapter}{\numberline {7}Koristni nasveti pri pisanju v \LaTeX {u}}{15}{chapter.7}

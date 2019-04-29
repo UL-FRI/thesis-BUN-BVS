@@ -45,6 +45,7 @@
 
 \usepackage{color}       % dodal Solina
 \usepackage{soul}       % dodal Solina
+\usepackage[numbers]{natbib}  % dodal Solina
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %	DIPLOMA INFO
@@ -188,20 +189,25 @@
  \thispagestyle{empty}%
    \begin{center}
     {\large\sc Univerza v Ljubljani\\%
-      Fakulteta za računalništvo in informatiko}%
+%      Fakulteta za elektrotehniko\\% za študijski program Multimedija
+%      Fakulteta za upravo\\% za študijski program Upravna informatika
+      Fakulteta za računalništvo in informatiko\\%
+%      Fakulteta za matematiko in fiziko\\% za študijski program Računalništvo in matematika
+     }
     \vskip 10em%
     {\autfont \tauthor\par}%
     {\titfont \ttitle \par}%
     {\vskip 3em \textsc{DIPLOMSKO DELO\\[5mm]         % dodal Solina za ostale študijske programe
 %    VISOKOŠOLSKI STROKOVNI ŠTUDIJSKI PROGRAM\\ PRVE STOPNJE\\ RAČUNALNIŠTVO IN INFORMATIKA}\par}%
-    UNIVERZITETNI  ŠTUDIJSKI PROGRAM\\ PRVE STOPNJE\\ RAČUNALNIŠTVO IN INFORMATIKA}\par}%
-%    INTERDISCIPLINARNI UNIVERZITETNI\\ ŠTUDIJSKI PROGRAM PRVE STOPNJE\\ RAČUNALNIŠTVO IN MATEMATIKA}\par}%
-%    INTERDISCIPLINARNI UNIVERZITETNI\\ ŠTUDIJSKI PROGRAM PRVE STOPNJE\\ UPRAVNA INFORMATIKA}\par}%
+     UNIVERZITETNI  ŠTUDIJSKI PROGRAM\\ PRVE STOPNJE\\ RAČUNALNIŠTVO IN INFORMATIKA}\par}%
 %    INTERDISCIPLINARNI UNIVERZITETNI\\ ŠTUDIJSKI PROGRAM PRVE STOPNJE\\ MULTIMEDIJA}\par}%
+%    INTERDISCIPLINARNI UNIVERZITETNI\\ ŠTUDIJSKI PROGRAM PRVE STOPNJE\\ UPRAVNA INFORMATIKA}\par}%
+%    INTERDISCIPLINARNI UNIVERZITETNI\\ ŠTUDIJSKI PROGRAM PRVE STOPNJE\\ RAČUNALNIŠTVO IN MATEMATIKA}\par}%
     \vfill\null%
-    {\large \textsc{Mentor}: doc.\ dr.  Peter Klepec\par}%
-   {\large \textsc{Somentor}:  izr.\ prof.\ dr. Martin Krpan \par}%
-    {\vskip 2em \large Ljubljana, 2016 \par}%
+% izberite pravi habilitacijski naziv mentorja!
+    {\large \textsc{Mentor}: viš. pred./doc./izr. prof./prof. dr. Peter Klepec\par}%
+   {\large \textsc{Somentor}:  viš. pred./doc./izr. prof./prof. dr.  Martin Krpan \par}%
+    {\vskip 2em \large Ljubljana, 2019 \par}%
 \end{center}
 % prazna stran
 %\clearemptydoublepage      % dodal Solina (izjava o licencah itd. se izpiše na hrbtni strani naslovnice)
@@ -213,8 +219,8 @@
 
 \noindent
 {\sc Copyright}. 
-Rezultati diplomske naloge so intelektualna lastnina avtorja in Fakultete za računalništvo in informatiko Univerze v Ljubljani.
-Za objavo in koriščenje rezultatov diplomske naloge je potrebno pisno privoljenje avtorja, Fakultete za računalništvo in informatiko ter mentorja.
+Rezultati diplomske naloge so intelektualna lastnina avtorja in matične fakultete Univerze v Ljubljani.
+Za objavo in koriščenje rezultatov diplomske naloge je potrebno pisno privoljenje avtorja, fakultete ter mentorja.
 
 \begin{center}
 \mbox{}\vfill
@@ -226,24 +232,32 @@ Za objavo in koriščenje rezultatov diplomske naloge je potrebno pisno privolje
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % stran 3 med uvodnimi listi
 \thispagestyle{empty}
-\vspace*{4cm}
+\
+\vfill
 
-\noindent
-Fakulteta za računalništvo in informatiko izdaja naslednjo nalogo:
-\medskip
-\begin{tabbing}
-\hspace{32mm}\= \hspace{6cm} \= \kill
+\bigskip
+\noindent\textbf{Kandidat:} Ime Priimek\\
+\noindent\textbf{Naslov:} Naslov diplome v slovenščini\\
+% vstavite ustrezen naziv študijskega programa!
+\noindent\textbf{Vrsta naloge:} npr. Diplomska naloga na univerzitetnem programu prve stopnje Računalništvo in informatika \\
+% izberite pravi habilitacijski naziv mentorja!
+\noindent\textbf{Mentor:} viš. pred. / doc. / izr. prof. / prof. dr. Ime Priimek\\
+\noindent\textbf{Somentor:} isto kot za mentorja
 
+\bigskip
+\noindent\textbf{Opis:}\\
+Besedilo teme diplomskega dela študent prepiše iz študijskega informacijskega sistema, kamor ga je vnesel mentor. 
+V nekaj stavkih bo opisal, kaj pričakuje od kandidatovega diplomskega dela. 
+Kaj so cilji, kakšne metode naj uporabi, morda bo zapisal tudi ključno literaturo.
 
+\bigskip
+\noindent\textbf{Title:} Naslov diplome v angleščini
 
+\bigskip
+\noindent\textbf{Description:}\\
+opis diplome v angleščini
 
-Tematika naloge:
-\end{tabbing}
-Besedilo teme diplomskega dela študent prepiše iz študijskega informacijskega sistema, kamor ga je vnesel mentor. V nekaj stavkih bo opisal, kaj pričakuje od kandidatovega diplomskega dela. Kaj so cilji, kakšne metode uporabiti, morda bo zapisal tudi ključno literaturo.
-\vspace{15mm}
-
-
-
+\vfill
 
 
 
@@ -358,12 +372,12 @@ A proper abstract should contain around 100 words which makes this one way too s
 \pagestyle{fancy}
 
 \chapter{Uvod}
-Prvi koristen nasvet v zvezi uporabo \LaTeX{a} je, da ta dokument preberete v celoti!
+Prvi koristen nasvet v zvezi uporabo \LaTeX{a} je, da v celoti preberete ta dokument!
 
 Datoteka {\tt vzorec\_dip\_Seminar.tex} na kratko opisuje, kako se pisanja diplomskega dela lotimo z uporabo programskega okolja \LaTeX~\cite{lamport,nenajkrajsi}. 
 V tem dokumentu bomo predstavili nekaj njegovih prednosti in hib. 
 Kar se slednjih tiče, nam pride na misel ena sama. 
-Ko se srečamo z njim prvič nam izgleda morda kot kislo jabolko, nismo prepričani, ali bi želeli vanj ugrizniti. 
+Ko se srečamo z njim prvič, nam izgleda morda kot kislo jabolko, nismo prepričani, ali bi želeli vanj ugrizniti. 
 Toda prav iz kislih jabolk lahko pripravimo odličen jabolčni zavitek in s praktičnim preizkusom \LaTeX a najlažje pridemo na njegov pravi okus.
 
 \LaTeX\ omogoča logično urejanje besedil, ki ima v primerjavi z vizualnim urejanjem številne prednosti, saj se problema urejanja besedil loti s programerskega stališča.
@@ -376,10 +390,14 @@ Naučili se bomo, kako se na njih sklicujemo.
 \ref{ch2}.~poglavje bo predstavilo vključevanje plovk: slik in tabel. 
 Poglavje \ref{stroka} na kratko predstavi tipične sestavne dele strokovnega besedila.
 V \ref{slo}.~poglavju omenjamo nekaj najpogostejših slovničnih napak, ki jih delamo v slovenščini.
-V \ref{latex}.~poglavju je še nekaj koristnih nasvetov v zvezi z uporabo \LaTeX{a}.
+V \ref{latex}.~poglavju je še nekaj koristnih praktičnih nasvetov v zvezi z uporabo \LaTeX{a}.
 V \ref{lit}.~poglavju se bomo srečali s sklicevanjem na literaturo,
 \ref{PDF}.~poglavje pa govori o formatu PDF/A, v katerem morate svojo diplomo oddati v sistemu STUDIS.
 Sledil bo samo še zaključek.
+
+Ta vzorec ni priročnik za uporabo \LaTeX{a}, saj razloži le nekatere osnovne ukaze, druge funkcionalnosti pa le omeni. Kako se jih uporablja
+pa naj bralec poišče drugje.
+
 
 \chapter{Osnovni gradniki \LaTeX{a}}
 \label{ch0}
@@ -446,6 +464,7 @@ V skrajnem primeru, če imamo res preveč plovk na enem mestu besedila, ali če 
 Poleg tega, da na položaj plovke vplivamo s tem, kam jo umestimo v izvorno besedilo, lahko na položaj plovke na posamezni strani prevedenega besedila dodatno vplivamo z opcijami \texttt{here, top} in \texttt{bottom}.
 Zelo velike slike je najbolje postaviti na posebno stran z opcijo \texttt{page}.
 Skaliranje slik po njihovi širini lahko prilagodimo širini strani tako, da kot enoto za dolžino uporabimo kar širino strani, npr. \verb=0.5\textwidth= bo raztegnilo sliko na polovico širine strani.
+Slike lahko po potrebi tudi zavrtimo za 90 stopinj, tako da bodo podrobnosti na sliki lažje berljive in da bo prostor na papirju bolje izkoriščen.
 
 Na vse plovke se moramo v besedilu sklicevati, saj kot beseda pove, plovke plujejo po besedilu in se ne pojavijo točno tam, kjer nastopajo v izvornem besedilu.
 Sklic na plovko v besedilu in sama plovka naj bosta čimbližje skupaj, tako da bralcu ne bo potrebno listati po diplomi. 
@@ -453,13 +472,16 @@ Upoštevajte pa, da se naloge tiska dvostransko in da se hkrati vidi dve strani 
 Na to, kje se bo slika ali druga plovka pojavila v postavljenem besedilu torej najbolj vplivamo tako, da v izvorni kodi plovko premikamo po besedilu nazaj ali naprej!
 
 Tabele ja najbolje oblikovati kar neposredno v \LaTeX u, saj za oblikovanje tabel obstaja zelo fleksibilno okolje \texttt{tabular} (glej tabelo~\ref{tbl:1}).
-Slike po drugi strani pa je bolje oblikovati oziroma izdelati z drugimi orodji in programi in se v \LaTeX u le sklicevati na ustrezno slikovno datoteko.
+Slike pa je po drugi strani  pogosto najla\v zje oblikovati oziroma izdelati z drugimi orodji in programi, rezultate shraniti v formatu {\tt .pdf}  in se v \LaTeX u le sklicevati na ustrezno slikovno datoteko.
+
+Knjižnica \url{https://en.wikibooks.org/wiki/LaTeX/PGF/TikZ} 
+pa omo\-go\-ča risanje raznovrstnih grafov neposredno v okolju \LaTeX .
 
 
 \section{Formati slik}
 
 Bitne slike, vektorske slike, kakršnekoli slike, z \LaTeX{}om lahko vključimo vse.
-Slika~\ref{pic1} je v {\tt .pdf} formatu.
+Slika~\ref{pic1} je v formatu {\tt .pdf}.
 \begin{figure}[h]
 \begin{center}
 \includegraphics[width=0.6\textwidth]{pic1.pdf}
@@ -481,7 +503,7 @@ ukaz/format & {\tt .pdf} & {\tt .eps} & ostali formati \\ \hline
 {\tt latex}   & ne & da  & da
 \end{tabular}
 \end{center}
-\caption{}
+\caption{Kompatibilnost različnih formatov slikovnih datotek z različnimi dialekti  \LaTeX a.}
 \label{tbl:1}
 \end{table}
 
@@ -531,6 +553,9 @@ ki smo jih uporabili pri delu, teoretičnim rezultatom ali predstavitvi rezultat
 \item[zaključek] še enkrat izpostavi glavne rezultate ali ugotovitve, jih primerja z dosedanjimi in morebiti poda tudi ideje za nadaljne delo,
 \item[literatura] je seznam vseh virov, na katere smo se pri svojem delu opirali, oziroma smo se na njih sklicevali v svojem besedilu.
 \end{description}
+
+Naslove poglavij in podpoglavij izbiramo tako, da lahko bralec že pri prelistavanju diplome in branju naslovov
+v grobem ugotovi, kaj je vsebina diplomskega dela.
 
 Strokovna besedila običajno pišemo v prvi osebi množine, v nevtralnem in umirjenem tonu. 
 Uporaba sopomenk ni zaželjena, saj želimo zaradi lažjega razumevanja za iste pojme vseskozi uporabljati iste besede.
@@ -583,7 +608,8 @@ znanega po svojih knjigah o umetnosti programiranja,
 ter Knuth-Bendixovem algoritmu~\cite{knuth1983simple}.
 
 Različnih implementacij \LaTeX{}a je cela vrsta.
-Za OS X priporočamo TeXShop, za Windows PC pa MikTeX. Spletna verzija, ki poenostavi sodelovanje pri pisanju, je npr. ShareLaTeX.
+Za OS X priporočamo TeXShop, za Windows PC pa MikTeX.
+Spletna verzija, ki poenostavi sodelovanje pri pisanju, je Overleaf.
 
 Včasih smo si pri pisanju v \LaTeX{}u  pomagali predvsem s tiskanimi pri\-ro\-čni\-ki, danes pa je enostavneje in hitreje, da ob vsakem problemu za pomoč enostavno povprašamo Google, 
 saj je na spletu cela vrsta forumov za pomoč pri \TeX{}iranju.
@@ -608,6 +634,8 @@ tako da lahko morebitne napake hitro identificiramo in odpravimo.
 Za prevajanje Wordovih datotek v \LaTeX\ sicer obstajajo prevajalniki, ki pa običajno ne generirajo tako čisto logično strukturo besedila, kot jo  \LaTeX\ omogoča.
 Hiter in enostaven način prevedbe besedila, ki  zahteva sicer ročne dopolnitve, poteka tako, da besedilo urejeno z vizualnim urejevalnikom najprej shranimo v formatu pdf, 
 nato pa to besedilo uvozimo v urejevalnik, kjer urejamo izvorno besedilo v formatu \LaTeX.
+
+
 
 
 \section{Pisave v \LaTeX u}
@@ -651,11 +679,12 @@ spletni viri~\cite{bib,slovarcek,video},
 tehnično poročilo~\cite{andersen2012kinect}, 
 diplome~\cite{diploma} itd.
 Diploma~\cite{diploma} iz leta 1990 je bila prva diploma na Fakulteti za elektrotehniko in računalništvo, ki je bila oblikovana z \LaTeX om!
+Novej\v se reference, ki so spletnih straneh svojih založnikov arhivirane v elektronski obliki, imajo določeno \v stevilko DOI: \url{http://dx.doi.org}, ki jo tudi lahko vključimo v izpis literature in omogoča neposredno povezavo do te reference~\cite{Kljun2018}.
 
 Po vsaki spremembi pri sklicu na literaturo moramo najprej prevesti izvorno besedilo s prevajalnikom \LaTeX, nato s prevajalnikom  \BibTeX, ki ustvari datoteko  {\tt vzorec\_dip\_Seminar.bbl}, in nato še dvakrat s prevajalnikom  \LaTeX.
 
 Kako natančno se spisek literature nato izpiše (ali po vrstnem redu sklicevanja, ali po abecedi priimkov prvih avtorjev, ali se imena avtorjev pišejo pred priimki itd.) je odvisno od stilske datoteke.
-V diplomi bomo uporabili osnovno stilsko datoteko \texttt{plain}, ki vire razporedi po abecedi.
+V diplomi bomo uporabili osnovno stilsko datoteko \texttt{plain}, oz. \texttt{plainnat}, ki vire razporedi po abecedi.
 Zato je potrebno pri določenih zvrsteh literature, ki nima avtorjev, dodati polje \texttt{key}, ki določi vrstni red vira po abecedi.
 
 Z uporabo \BibTeX{a} v slovenščini je še nekaj nedoslednosti, saj so pomožne besede, ki jih \BibTeX\ sam doda,  kot so \textit{editor},  \textit{pages} in besedica  \textit{and} pred zadnjim avtorjem, 
@@ -673,9 +702,9 @@ Le če se bomo na določen vir v besedilu tudi sklicevali, se bo pojavil tudi v 
 Tako je avtomatično zagotovljeno, da se na vsak vir v seznamu literature tudi sklicujemo v besedilu diplome.
 V datoteki \texttt{.bib} imamo sicer lahko veliko več virov za literaturo, kot jih bomo uporabili v diplomi.
 
-Vire v formatu \BibTeX\ lahko enostavno poiščemo in prekopiramo iz akademskih spletnih portalov za iskanje znanstvene literature v našo datoteko \texttt{.bib}, na primer v Google učenjaku.
-Izvoz v Google učenjaku še dodatno poenostavimo, če v nastavitvah izberemo \BibTeX\ kot želeni format za izvoz navedb.
-Navedbe, ki jih na tak način prekopiramo, pa moramo pred uporabo vseeno preveriti, saj so taki navedki običajno generirani povsem avtomatično.
+Vire v formatu \BibTeX\ lahko enostavno poiščemo in prekopiramo iz spletnih strani založnikov ali različnih akademskih spletnih portalov za iskanje znanstvene literature v našo datoteko \texttt{.bib}.
+Izvoz  referenc v Google učenjaku še dodatno poenostavimo, če v nastavitvah izberemo \BibTeX\ kot želeni format za izvoz navedb.
+Navedbe, ki jih na tak način prekopiramo, pa moramo pred uporabo vseeno preveriti, saj so taki navedki pogosto generirani povsem avtomatično in lahko vsebujejo napačne ali nepopolne podatke.
 
 Pri sklicevanju na literaturo na koncu stavka moramo paziti, da je pika po ukazu \verb=\cite{ }=.
 Da \LaTeX\ ne bi delil vrstico ravno tako, da bi sklic na literaturo v oglatih oklepajih začel novo vrstico, lahko pred sklicem na literaturo dodamo nedeljiv presledek: \verb=~\cite{ }=.
@@ -724,12 +753,16 @@ Res je, da so prvi koraki v \LaTeX{}u težavni.
 Ta dokument naj vam služi kot začetna opora pri hoji.
 Pri kakršnihkoli nadaljnih vprašanjih ali napakah pa svetujem uporabo Googla, saj je spletnih strani za pomoč pri odpravljanju težav pri uporabi \LaTeX{}a ogromno.
 
+Preden diplomo oddate na sistemu STUDIS, še enkrat preverite, če so slovenske besede, ki vsebujejo črke s strešicami,  pravilno deljene.
+Poravnavo po vrsticah pa kontrolirajte tako, da izvorno datoteko prevedete z opcijo \texttt{draft}, kar vam pokaže predolge vrstice.
+
+
 
 \newpage %dodaj po potrebi, da bo številka strani za Literaturo v Kazalu pravilna!
 \ \\
 \clearpage
 \addcontentsline{toc}{chapter}{Literatura}
-\bibliographystyle{plain}
+\bibliographystyle{plainnat}
 \bibliography{literatura}
 
 
