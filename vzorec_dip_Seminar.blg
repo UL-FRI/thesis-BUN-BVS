@@ -1,49 +1,17 @@
-This is BibTeX, Version 0.99d (TeX Live 2015)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: vzorec_dip_Seminar.aux
-The style file: plainnat.bst
-Database file #1: literatura.bib
-Warning--empty year in knuth
-Warning--empty year in slovarcek
-You've used 13 entries,
-            2773 wiz_defined-function locations,
-            669 strings with 6982 characters,
-and the built_in function-call counts, 5305 in all, are:
-= -- 486
-> -- 264
-< -- 12
-+ -- 93
-- -- 80
-* -- 346
-:= -- 809
-add.period$ -- 47
-call.type$ -- 13
-change.case$ -- 66
-chr.to.int$ -- 13
-cite$ -- 28
-duplicate$ -- 254
-empty$ -- 463
-format.name$ -- 96
-if$ -- 1141
-int.to.chr$ -- 1
-int.to.str$ -- 1
-missing$ -- 6
-newline$ -- 79
-num.names$ -- 50
-pop$ -- 165
-preamble$ -- 1
-purify$ -- 53
-quote$ -- 0
-skip$ -- 201
-stack$ -- 0
-substring$ -- 131
-swap$ -- 34
-text.length$ -- 3
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 138
-warning$ -- 2
-while$ -- 48
-width$ -- 0
-write$ -- 181
-(There were 2 warnings)
+[0] Config.pm:304> INFO - This is Biber 2.14
+[0] Config.pm:307> INFO - Logfile is 'vzorec_dip_Seminar.blg'
+[68] biber-MSWIN32:322> INFO - === 
+[86] Biber.pm:415> INFO - Reading 'vzorec_dip_Seminar.bcf'
+[192] Biber.pm:943> INFO - Found 13 citekeys in bib section 0
+[209] Biber.pm:4256> INFO - Processing section 0
+[209] Utils.pm:75> INFO - Globbing data source 'literatura.bib'
+[218] Utils.pm:91> INFO - Globbed data source 'literatura.bib' to literatura.bib
+[231] Biber.pm:4455> INFO - Looking for bibtex format file 'literatura.bib' for section 0
+[234] bibtex.pm:1653> INFO - LaTeX decoding ...
+[263] bibtex.pm:1471> INFO - Found BibTeX data source 'literatura.bib'
+[350] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[351] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[351] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[351] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[368] bbl.pm:652> INFO - Writing 'vzorec_dip_Seminar.bbl' with encoding 'UTF-8'
+[375] bbl.pm:755> INFO - Output to vzorec_dip_Seminar.bbl

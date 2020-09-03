@@ -1,89 +1,423 @@
-\begin{thebibliography}{13}
-\providecommand{\natexlab}[1]{#1}
-\providecommand{\url}[1]{\texttt{#1}}
-\expandafter\ifx\csname urlstyle\endcsname\relax
-  \providecommand{\doi}[1]{doi: #1}\else
-  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
 
-\bibitem[Andersen et~al.(2012)Andersen, Jensen, Lisouski, Mortensen, Hansen,
-  Gregersen, and Ahrendt]{andersen2012kinect}
-Michael~Riis Andersen, Thomas Jensen, Pavel Lisouski, Anders~Krogh Mortensen,
-  Mikkel~Kragh Hansen, Torben Gregersen, and Peter Ahrendt.
-\newblock Kinect depth sensor evaluation for computer vision applications.
-\newblock Technical report, Department of Engineering, Aarhus University, 2012.
 
-\bibitem[Balon(1990)]{diploma}
-Andreja Balon.
-\newblock Vizualizacija.
-\newblock Diplomska naloga, Fakulteta za elektrotehniko in
-  ra\v{c}unalni\v{s}tvo, Univerza v Ljubljani, 1990.
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{andersen2012kinect}{report}{}
+      \name{author}{7}{}{%
+        {{hash=b9289432712be2211784b30fe4c4c3cb}{%
+           family={Andersen},
+           familyi={A\bibinitperiod},
+           given={Michael\bibnamedelima Riis},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=54b0873808d8a79f6deb26a620425b43}{%
+           family={Jensen},
+           familyi={J\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=e47bf84e71f83bac00c322bba2c041fe}{%
+           family={Lisouski},
+           familyi={L\bibinitperiod},
+           given={Pavel},
+           giveni={P\bibinitperiod}}}%
+        {{hash=ccae5ffc2175260dfbbd4a7485b9a9c0}{%
+           family={Mortensen},
+           familyi={M\bibinitperiod},
+           given={Anders\bibnamedelima Krogh},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=3fc9886c8ae42f9e2df937f6d67cfdc6}{%
+           family={Hansen},
+           familyi={H\bibinitperiod},
+           given={Mikkel\bibnamedelima Kragh},
+           giveni={M\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=56a624b510d6e040a8a29db3680e4d45}{%
+           family={Gregersen},
+           familyi={G\bibinitperiod},
+           given={Torben},
+           giveni={T\bibinitperiod}}}%
+        {{hash=c8c1796dbba4342bc4e812ed286beb9d}{%
+           family={Ahrendt},
+           familyi={A\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Department of Engineering, Aarhus University}%
+      }
+      \strng{namehash}{961229af6db5d44c1e7a7261ec440e18}
+      \strng{fullhash}{961229af6db5d44c1e7a7261ec440e18}
+      \strng{bibnamehash}{961229af6db5d44c1e7a7261ec440e18}
+      \strng{authorbibnamehash}{961229af6db5d44c1e7a7261ec440e18}
+      \strng{authornamehash}{961229af6db5d44c1e7a7261ec440e18}
+      \strng{authorfullhash}{961229af6db5d44c1e7a7261ec440e18}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Kinect depth sensor evaluation for computer vision applications}
+      \field{type}{techreport}
+      \field{year}{2012}
+    \endentry
+    \entry{diploma}{report}{}
+      \name{author}{1}{}{%
+        {{hash=19749dc78d8315213ab03c28ea139bcd}{%
+           family={Balon},
+           familyi={B\bibinitperiod},
+           given={Andreja},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Fakulteta za elektrotehniko in računalništvo, Univerza v Ljubljani}%
+      }
+      \strng{namehash}{19749dc78d8315213ab03c28ea139bcd}
+      \strng{fullhash}{19749dc78d8315213ab03c28ea139bcd}
+      \strng{bibnamehash}{19749dc78d8315213ab03c28ea139bcd}
+      \strng{authorbibnamehash}{19749dc78d8315213ab03c28ea139bcd}
+      \strng{authornamehash}{19749dc78d8315213ab03c28ea139bcd}
+      \strng{authorfullhash}{19749dc78d8315213ab03c28ea139bcd}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Vizualizacija}
+      \field{type}{Diplomska naloga}
+      \field{year}{1990}
+    \endentry
+    \entry{slovarcek}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=cc505e5be6b49e0d18726340a532972e}{%
+           family={Gams},
+           familyi={G\bibinitperiod},
+           given={Matjaž},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{cc505e5be6b49e0d18726340a532972e}
+      \strng{fullhash}{cc505e5be6b49e0d18726340a532972e}
+      \strng{bibnamehash}{cc505e5be6b49e0d18726340a532972e}
+      \strng{authorbibnamehash}{cc505e5be6b49e0d18726340a532972e}
+      \strng{authornamehash}{cc505e5be6b49e0d18726340a532972e}
+      \strng{authorfullhash}{cc505e5be6b49e0d18726340a532972e}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Dosegljivo: \url{http://dis-slovarcek.ijs.si}}
+      \field{note}{[Dostopano: 1. 10. 2016]}
+      \field{title}{{DIS} slovarček, slovar računalniških izrazov, verzija 2.1.70}
+    \endentry
+    \entry{Kljun2018}{article}{}
+      \name{author}{4}{}{%
+        {{hash=fdc22cba11bf6a6d03c1f0fb18a13d64}{%
+           family={Kljun},
+           familyi={K\bibinitperiod},
+           given={Matjaž},
+           giveni={M\bibinitperiod}}}%
+        {{hash=844319f8c8cb55d742bddd75cb5872d9}{%
+           family={Krulec},
+           familyi={K\bibinitperiod},
+           given={Rok},
+           giveni={R\bibinitperiod}}}%
+        {{hash=7802054e061fcf8f8b17e9bccb5b7fb3}{%
+           family={Pucihar},
+           familyi={P\bibinitperiod},
+           given={Klen\bibnamedelima Čopič},
+           giveni={K\bibinitperiod\bibinitdelim Č\bibinitperiod}}}%
+        {{hash=e3cb80c42d2292dd78bce3802c74b1a4}{%
+           family={Solina},
+           familyi={S\bibinitperiod},
+           given={Franc},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Institute of Electrical}%
+        {Electronics Engineers ({IEEE})}%
+      }
+      \strng{namehash}{682f4878e4beb4c8b908ca9544909213}
+      \strng{fullhash}{682f4878e4beb4c8b908ca9544909213}
+      \strng{bibnamehash}{682f4878e4beb4c8b908ca9544909213}
+      \strng{authorbibnamehash}{682f4878e4beb4c8b908ca9544909213}
+      \strng{authornamehash}{682f4878e4beb4c8b908ca9544909213}
+      \strng{authorfullhash}{682f4878e4beb4c8b908ca9544909213}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{IEEE} Transactions on Learning Technologies}
+      \field{title}{Persuasive technologies in m-learning for training professionals: how to keep learners engaged with adaptive triggering}
+      \field{year}{2018}
+      \field{pages}{1\bibrangedash 1}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://doi.org/10.1109/tlt.2018.2840716
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1109/tlt.2018.2840716
+      \endverb
+    \endentry
+    \entry{knuth}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=1dd533466eb3313074d496394d319407}{%
+           family={Knuth},
+           familyi={K\bibinitperiod},
+           given={Donald},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{1dd533466eb3313074d496394d319407}
+      \strng{fullhash}{1dd533466eb3313074d496394d319407}
+      \strng{bibnamehash}{1dd533466eb3313074d496394d319407}
+      \strng{authorbibnamehash}{1dd533466eb3313074d496394d319407}
+      \strng{authornamehash}{1dd533466eb3313074d496394d319407}
+      \strng{authorfullhash}{1dd533466eb3313074d496394d319407}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
+      \field{howpublished}{Dosegljivo: \url{https://sl.wikipedia.org/wiki/Donald_Knuth}}
+      \field{note}{[Dostopano: 1. 10. 2016]}
+    \endentry
+    \entry{knuth1983simple}{incollection}{}
+      \name{author}{2}{}{%
+        {{hash=ec08e6f01da5f3814f28a70c89c64656}{%
+           family={Knuth},
+           familyi={K\bibinitperiod},
+           given={Donald\bibnamedelima E},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=aa6dc69f9eafbf80b49ab1d9b51504d3}{%
+           family={Bendix},
+           familyi={B\bibinitperiod},
+           given={Peter\bibnamedelima B},
+           giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=aaf85d2976ac5737cbf1cfad798ee2bd}{%
+           family={Siekmann},
+           familyi={S\bibinitperiod},
+           given={Jörg\bibnamedelima H.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=d5d6b6477dbdf21cbd2230c61adc134f}{%
+           family={Wrightson},
+           familyi={W\bibinitperiod},
+           given={Graham},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{370252483c2066cf94185f9da4f0ec30}
+      \strng{fullhash}{370252483c2066cf94185f9da4f0ec30}
+      \strng{bibnamehash}{370252483c2066cf94185f9da4f0ec30}
+      \strng{authorbibnamehash}{370252483c2066cf94185f9da4f0ec30}
+      \strng{authornamehash}{370252483c2066cf94185f9da4f0ec30}
+      \strng{authorfullhash}{370252483c2066cf94185f9da4f0ec30}
+      \strng{editorbibnamehash}{f35fab0a571e6ce6a954d4d7b577c6fc}
+      \strng{editornamehash}{f35fab0a571e6ce6a954d4d7b577c6fc}
+      \strng{editorfullhash}{f35fab0a571e6ce6a954d4d7b577c6fc}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Automation of Reasoning: Classical papers on computational logic 1957--1966}
+      \field{title}{Simple word problems in universal algebras}
+      \field{year}{1983}
+      \field{pages}{342\bibrangedash 376}
+      \range{pages}{35}
+    \endentry
+    \entry{lamport}{book}{}
+      \name{author}{1}{}{%
+        {{hash=5d77435450d10a850a5b58577b9a456b}{%
+           family={Lamport},
+           familyi={L\bibinitperiod},
+           given={Leslie},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Addison-Wesley}%
+      }
+      \strng{namehash}{5d77435450d10a850a5b58577b9a456b}
+      \strng{fullhash}{5d77435450d10a850a5b58577b9a456b}
+      \strng{bibnamehash}{5d77435450d10a850a5b58577b9a456b}
+      \strng{authorbibnamehash}{5d77435450d10a850a5b58577b9a456b}
+      \strng{authornamehash}{5d77435450d10a850a5b58577b9a456b}
+      \strng{authorfullhash}{5d77435450d10a850a5b58577b9a456b}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{LaTEX: A Document Preparation System}
+      \field{year}{1986}
+    \endentry
+    \entry{nenajkrajsi}{misc}{}
+      \name{author}{4}{}{%
+        {{hash=5d11479143005f8afd00a80db661847f}{%
+           family={Oetiker},
+           familyi={O\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod}}}%
+        {{hash=8ca96670929452aa6904ed514c3b557d}{%
+           family={Partl},
+           familyi={P\bibinitperiod},
+           given={Hubert},
+           giveni={H\bibinitperiod}}}%
+        {{hash=db9b819bf4a42d221113f40ed8c86d64}{%
+           family={Hyna},
+           familyi={H\bibinitperiod},
+           given={Irene},
+           giveni={I\bibinitperiod}}}%
+        {{hash=18761ea06cd8d6305a71fa1fde3f4b19}{%
+           family={Schlegl},
+           familyi={S\bibinitperiod},
+           given={Elisabeth},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{8fca386a8f8bd6243f3461ae9167a2f4}
+      \strng{fullhash}{8fca386a8f8bd6243f3461ae9167a2f4}
+      \strng{bibnamehash}{8fca386a8f8bd6243f3461ae9167a2f4}
+      \strng{authorbibnamehash}{8fca386a8f8bd6243f3461ae9167a2f4}
+      \strng{authornamehash}{8fca386a8f8bd6243f3461ae9167a2f4}
+      \strng{authorfullhash}{8fca386a8f8bd6243f3461ae9167a2f4}
+      \field{sortinit}{O}
+      \field{sortinithash}{ff8d4eeb5101e3cf3809959b3592d942}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Dosegljivo: \url{http://www-lp.fmf.uni-lj.si/plestenjak/vaje/latex/lshort.pdf}}
+      \field{note}{[Dostopano: 1. 10. 2016]}
+      \field{title}{Ne najkrajši uvod v {\LaTeX 2$\epsilon$}}
+      \field{year}{2006}
+    \endentry
+    \entry{bib}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=b5085a32ea3005cb2c63376fae9f0646}{%
+           family={Patashnik},
+           familyi={P\bibinitperiod},
+           given={Oren},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{b5085a32ea3005cb2c63376fae9f0646}
+      \strng{fullhash}{b5085a32ea3005cb2c63376fae9f0646}
+      \strng{bibnamehash}{b5085a32ea3005cb2c63376fae9f0646}
+      \strng{authorbibnamehash}{b5085a32ea3005cb2c63376fae9f0646}
+      \strng{authornamehash}{b5085a32ea3005cb2c63376fae9f0646}
+      \strng{authorfullhash}{b5085a32ea3005cb2c63376fae9f0646}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Dosegljivo: \url{http://bibtexml.sourceforge.net/btxdoc.pdf}}
+      \field{note}{[Dostopano 5. 6. 2016]}
+      \field{title}{{BibTeXing}}
+      \field{year}{1988}
+    \endentry
+    \entry{pdfa}{misc}{}
+      \field{sortinit}{p}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Dosegljivo: \url{http://en.wikipedia.org/wiki/PDF/A}}
+      \field{note}{[Dostopano: 5. 6. 2016]}
+      \field{title}{{PDF/A}}
+      \field{year}{2005}
+    \endentry
+    \entry{poglavje_springer}{incollection}{}
+      \name{author}{2}{}{%
+        {{hash=bbb467a41c01759d10c0be6585a01de8}{%
+           family={Peer},
+           familyi={P\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=23218d103ab87efc36d0e4c223147634}{%
+           family={Batagelj},
+           familyi={B\bibinitperiod},
+           given={Borut},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{901e831e3e957e8e6f58467df71a8728}
+      \strng{fullhash}{901e831e3e957e8e6f58467df71a8728}
+      \strng{bibnamehash}{901e831e3e957e8e6f58467df71a8728}
+      \strng{authorbibnamehash}{901e831e3e957e8e6f58467df71a8728}
+      \strng{authornamehash}{901e831e3e957e8e6f58467df71a8728}
+      \strng{authorfullhash}{901e831e3e957e8e6f58467df71a8728}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Recent Advances in Multimedia Signal Processing and Communications}
+      \field{title}{Art---A Perfect Testbed for Computer Vision Related Research}
+      \field{year}{2009}
+      \field{pages}{611\bibrangedash 629}
+      \range{pages}{19}
+    \endentry
+    \entry{leonardo}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e3cb80c42d2292dd78bce3802c74b1a4}{%
+           family={Solina},
+           familyi={S\bibinitperiod},
+           given={Franc},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{e3cb80c42d2292dd78bce3802c74b1a4}
+      \strng{fullhash}{e3cb80c42d2292dd78bce3802c74b1a4}
+      \strng{bibnamehash}{e3cb80c42d2292dd78bce3802c74b1a4}
+      \strng{authorbibnamehash}{e3cb80c42d2292dd78bce3802c74b1a4}
+      \strng{authornamehash}{e3cb80c42d2292dd78bce3802c74b1a4}
+      \strng{authorfullhash}{e3cb80c42d2292dd78bce3802c74b1a4}
+      \field{extraname}{1}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Leonardo}
+      \field{number}{2}
+      \field{title}{15 seconds of fame}
+      \field{volume}{37}
+      \field{year}{2004}
+      \field{pages}{105\bibrangedash 110}
+      \range{pages}{6}
+    \endentry
+    \entry{video}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=e3cb80c42d2292dd78bce3802c74b1a4}{%
+           family={Solina},
+           familyi={S\bibinitperiod},
+           given={Franc},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{e3cb80c42d2292dd78bce3802c74b1a4}
+      \strng{fullhash}{e3cb80c42d2292dd78bce3802c74b1a4}
+      \strng{bibnamehash}{e3cb80c42d2292dd78bce3802c74b1a4}
+      \strng{authorbibnamehash}{e3cb80c42d2292dd78bce3802c74b1a4}
+      \strng{authornamehash}{e3cb80c42d2292dd78bce3802c74b1a4}
+      \strng{authorfullhash}{e3cb80c42d2292dd78bce3802c74b1a4}
+      \field{extraname}{2}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Dosegljivo: \url{https://youtu.be/CS6x-QwJywg}}
+      \field{note}{[Dostopano: 9. 10. 2015]}
+      \field{title}{Light Fountain---an interactive art installation}
+      \field{year}{2015}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
 
-\bibitem[Kljun et~al.(2018)Kljun, Krulec, \v{C}opi\v{c} Pucihar, and
-  Solina]{Kljun2018}
-Matja\v{z} Kljun, Rok Krulec, Klen \v{C}opi\v{c} Pucihar, and Franc Solina.
-\newblock Persuasive technologies in m-learning for training professionals: how
-  to keep learners engaged with adaptive triggering.
-\newblock \emph{{IEEE} Transactions on Learning Technologies}, pages 1--1,
-  2018.
-\newblock URL \url{https://doi.org/10.1109/tlt.2018.2840716}.
-
-\bibitem[Knuth()]{knuth}
-Donald Knuth.
-\newblock Dosegljivo: \url{https://sl.wikipedia.org/wiki/Donald_Knuth}.
-\newblock [Dostopano: 1. 10. 2016].
-
-\bibitem[Knuth and Bendix(1983)]{knuth1983simple}
-Donald~E Knuth and Peter~B Bendix.
-\newblock Simple word problems in universal algebras.
-\newblock In Jörg~H. Siekmann and Graham Wrightson, editors, \emph{Automation
-  of Reasoning: Classical papers on computational logic 1957--1966}, pages
-  342--376. Springer, 1983.
-
-\bibitem[Lamport(1986)]{lamport}
-Leslie Lamport.
-\newblock \emph{LaTEX: A Document Preparation System}.
-\newblock Addison-Wesley, 1986.
-
-\bibitem[Oetiker et~al.(2006)Oetiker, Partl, Hyna, and Schlegl]{nenajkrajsi}
-Tobias Oetiker, Hubert Partl, Irene Hyna, and Elisabeth Schlegl.
-\newblock Ne najkraj\v{s}i uvod v {\LaTeX 2$\epsilon$}.
-\newblock Dosegljivo:
-  \url{http://www-lp.fmf.uni-lj.si/plestenjak/vaje/latex/lshort.pdf}, 2006.
-\newblock [Dostopano: 1. 10. 2016].
-
-\bibitem[Patashnik(1988)]{bib}
-Oren Patashnik.
-\newblock {BibTeXing}.
-\newblock Dosegljivo: \url{http://bibtexml.sourceforge.net/btxdoc.pdf}, 1988.
-\newblock [Dostopano 5. 6. 2016].
-
-\bibitem[pdfa()]{pdfa}
-pdfa.
-\newblock {PDF/A}.
-\newblock Dosegljivo: \url{http://en.wikipedia.org/wiki/PDF/A}, 2005.
-\newblock [Dostopano: 5. 6. 2016].
-
-\bibitem[Peer and Batagelj(2009)]{poglavje_springer}
-Peter Peer and Borut Batagelj.
-\newblock Art---a perfect testbed for computer vision related research.
-\newblock In \emph{Recent Advances in Multimedia Signal Processing and
-  Communications}, pages 611--629. Springer, 2009.
-
-\bibitem[Solina(2004)]{leonardo}
-Franc Solina.
-\newblock 15 seconds of fame.
-\newblock \emph{Leonardo}, 37\penalty0 (2):\penalty0 105--110, 2004.
-
-\bibitem[Solina(2015)]{video}
-Franc Solina.
-\newblock Light fountain---an interactive art installation.
-\newblock Dosegljivo: \url{https://youtu.be/CS6x-QwJywg}, 2015.
-\newblock [Dostopano: 9. 10. 2015].
-
-\bibitem[(ured.)()]{slovarcek}
-Matjaž~Gams (ured.).
-\newblock {DIS} slovarček, slovar računalniških izrazov, verzija 2.1.70.
-\newblock Dosegljivo: \url{http://dis-slovarcek.ijs.si}.
-\newblock [Dostopano: 1. 10. 2016].
-
-\end{thebibliography}

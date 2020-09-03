@@ -20,32 +20,36 @@
 % verzija 26. februar 2016 (UL izjava o avtorstvu)
 % verzija 16. april 2016 (odstranjena izjava o avtorstvu)
 % verzija 5. junij 2016 (Franc Solina dodal vrstice, ki jih je označil s svojim imenom)
-
+% verzija 1. september 2020 (seznam literature v slovenščini, Jakob Maležič in Nejc Ilc)
 
 \documentclass[a4paper, 12pt]{book}
 %\documentclass[a4paper, 12pt, draft]{book}  Nalogo preverite tudi z opcijo draft, ki vam bo pokazala, katere vrstice so predolge!
 
 
-
-\usepackage[utf8x]{inputenc}   % omogoča uporabo slovenskih črk kodiranih v formatu UTF-8
+\usepackage[utf8]{inputenc}   % omogoča uporabo slovenskih črk kodiranih v formatu UTF-8
+\usepackage[T1]{fontenc}
 \usepackage[slovene,english]{babel}    % naloži, med drugim, slovenske delilne vzorce
 \usepackage[pdftex]{graphicx}  % omogoča vlaganje slik različnih formatov
 \usepackage{fancyhdr}          % poskrbi, na primer, za glave strani
 \usepackage{amssymb}           % dodatni simboli
 \usepackage{amsmath}           % eqref, npr.
-%\usepackage{hyperxmp}
-\usepackage[hyphens]{url}  % dodal Solina
-\usepackage{comment}       % dodal Solina
+\usepackage[hyphens]{url}      % dodal Solina
+\usepackage{comment}           % dodal Solina
+
 
 \usepackage[pdftex, colorlinks=true,
-						citecolor=black, filecolor=black, 
-						linkcolor=black, urlcolor=black,
-						pagebackref=false, 
-						pdfproducer={LaTeX}, pdfcreator={LaTeX}, hidelinks]{hyperref}
+			citecolor=black, filecolor=black, 
+			linkcolor=black, urlcolor=black,
+			pagebackref=false, 
+            pdfproducer={LaTeX}, pdfcreator={LaTeX}, hidelinks,
+            unicode]{hyperref}
 
-\usepackage{color}       % dodal Solina
+\usepackage{color}      % dodal Solina
 \usepackage{soul}       % dodal Solina
-\usepackage[numbers]{natbib}  % dodal Solina
+
+\usepackage[style=trad-plain]{biblatex}  % omogoči seznam literature v slovenščini; če želimo vrstni red glede na zaporedje citiranja, dodamo opcijo sorting=none, torej [style=trad-plain, sorting=none]
+\addbibresource{literatura.bib}          % pot do datoteke BiBTeX z literaturo
+\usepackage{csquotes} 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %	DIPLOMA INFO
@@ -679,7 +683,7 @@ spletni viri~\cite{bib,slovarcek,video},
 tehnično poročilo~\cite{andersen2012kinect}, 
 diplome~\cite{diploma} itd.
 Diploma~\cite{diploma} iz leta 1990 je bila prva diploma na Fakulteti za elektrotehniko in računalništvo, ki je bila oblikovana z \LaTeX om!
-Novej\v se reference, ki so spletnih straneh svojih založnikov arhivirane v elektronski obliki, imajo določeno \v stevilko DOI: \url{http://dx.doi.org}, ki jo tudi lahko vključimo v izpis literature in omogoča neposredno povezavo do te reference~\cite{Kljun2018}.
+Novejše reference, ki so spletnih straneh svojih založnikov arhivirane v elektronski obliki, imajo določeno \v stevilko DOI: \url{http://dx.doi.org}, ki jo tudi lahko vključimo v izpis literature in omogoča neposredno povezavo do te reference~\cite{Kljun2018}.
 
 Po vsaki spremembi pri sklicu na literaturo moramo najprej prevesti izvorno besedilo s prevajalnikom \LaTeX, nato s prevajalnikom  \BibTeX, ki ustvari datoteko  {\tt vzorec\_dip\_Seminar.bbl}, in nato še dvakrat s prevajalnikom  \LaTeX.
 
@@ -687,13 +691,13 @@ Kako natančno se spisek literature nato izpiše (ali po vrstnem redu sklicevanj
 V diplomi bomo uporabili osnovno stilsko datoteko \texttt{plain}, oz. \texttt{plainnat}, ki vire razporedi po abecedi.
 Zato je potrebno pri določenih zvrsteh literature, ki nima avtorjev, dodati polje \texttt{key}, ki določi vrstni red vira po abecedi.
 
-Z uporabo \BibTeX{a} v slovenščini je še nekaj nedoslednosti, saj so pomožne besede, ki jih \BibTeX\ sam doda,  kot so \textit{editor},  \textit{pages} in besedica  \textit{and} pred zadnjim avtorjem, 
-če ima vir več avtorjev~\cite{andersen2012kinect}, zapisane v angleščini,
-čeprav smo izbrali opcijo \texttt{slovene} pri paketu \texttt{babel}.
-To nedoslednost je možno popraviti z ročnim urejanjem datoteke {\tt vzorec\_dip\_Seminar.bbl}, 
-kar pa je smiselno šele potem, ko bibliografije v datoteki \texttt{literatura.bib} ne bomo več spreminjali,
-oziroma ne bomo več dodajali novih sklicev na literaturo v izvornem besedilu.
-Vsebino datoteke {\tt vzorec\_dip\_Seminar.bbl} lahko na koncu urejanja tudi vključimo kar v izvorno besedilo diplome, tako da je vso besedilo, vključno z literaturo, zajeto le v eni datoteki.
+% Z uporabo \BibTeX{a} v slovenščini je še nekaj nedoslednosti, saj so pomožne besede, ki jih \BibTeX\ sam doda,  kot so \textit{editor},  \textit{pages} in besedica  \textit{and} pred zadnjim avtorjem, 
+% če ima vir več avtorjev~\cite{andersen2012kinect}, zapisane v angleščini,
+% čeprav smo izbrali opcijo \texttt{slovene} pri paketu \texttt{babel}.
+% To nedoslednost je možno popraviti z ročnim urejanjem datoteke {\tt vzorec\_dip\_Seminar.bbl}, 
+% kar pa je smiselno šele potem, ko bibliografije v datoteki \texttt{literatura.bib} ne bomo več spreminjali,
+% oziroma ne bomo več dodajali novih sklicev na literaturo v izvornem besedilu.
+% Vsebino datoteke {\tt vzorec\_dip\_Seminar.bbl} lahko na koncu urejanja tudi vključimo kar v izvorno besedilo diplome, tako da je vso besedilo, vključno z literaturo, zajeto le v eni datoteki.
 
 Ko začenjamo uporabljati \BibTeX\ je lažje, če za urejanje datoteke .bib uporabljamo kar isti urejevalnik kot za urejanje datotek .tex, 
 čeprav obstajajo tudi posebni urejevalniki oziroma programi za delo z \BibTeX om.
@@ -759,8 +763,8 @@ Poravnavo po vrsticah pa kontrolirajte tako, da izvorno datoteko prevedete z opc
 
 \cleardoublepage
 \addcontentsline{toc}{chapter}{Literatura}
-\bibliography{literatura}
-\bibliographystyle{plainnat}
+\selectlanguage{slovene}
+\printbibliography
 
 \end{document}
 
