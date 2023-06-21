@@ -472,7 +472,7 @@ Na podoben način se lahko s pomočjo ukazov \verb|\label| in \verb|\ref| sklicu
 \label{ch2}
 
 Slike in daljše tabele praviloma vključujemo v dokument kot plovke. 
-Pozicija plovke v končnem izdelku ni pogojena s tekom besedila, temveč z izgledom strani. 
+Lega plovke v končnem izdelku ni pogojena s tekom besedila, temveč z izgledom strani. 
 \LaTeX\ bo skušal plovko postaviti samostojno, praviloma na mestu, kjer se pojavi v izvornem besedilu, sicer pa na 
 vrhu strani, na kateri se na takšno plovko prvič sklicujemo. 
 Pri tem pa bo na vsako stran končnega izdelka želel postaviti tudi sorazmerno velik del besedila. 
@@ -489,7 +489,8 @@ Vendar naj bosta  sklic na plovko v besedilu in sama plovka v oblikovanem besedi
 Upoštevajte pa, da se naloge tiska dvostransko in da se hkrati vidi dve strani v dokumentu!
 Na to, kje se bo slika ali druga plovka pojavila v postavljenem besedilu lahko torej najbolj vplivamo tako, da v izvorni kodi plovko premikamo po besedilu nazaj ali naprej!
 
-Tabele je najbolje oblikovati kar neposredno v \LaTeX u, saj za oblikovanje tabel obstaja zelo fleksibilno okolje \texttt{tabular}.
+Tabele je najbolje oblikovati kar neposredno v \LaTeX u, saj za oblikovanje tabel obstaja zelo fleksibilno okolje \texttt{tabular}, sicer pa za stavljenje tabel priporočamo ogled predstavitve na \url{https://people.inf.ethz.ch/markusp/teaching/guides/guide-tables.pdf}, ki meddrugim svetuje, katere črte naj tabele vsebujejo in katere ne. Odsvetuje se na primer uporaba vertikalnih črt.
+
 Slike pa je po drugi strani  pogosto najla\v zje oblikovati oziroma izdelati z drugimi orodji in programi, rezultate shraniti v formatu {\tt .pdf} ali {\tt .jpeg} in nato v \LaTeX u le vključiti ustrezno slikovno datoteko. Za pisanje besed, ki so vključene v slike, uporabite pisave/fonte, ki so čimbolj podobne pisavam v samem besedilu.
 
 Knjižnica \url{https://en.wikibooks.org/wiki/LaTeX/PGF/TikZ} 
@@ -500,12 +501,10 @@ Pri sklicevanju na slike uporabimo veliko začetnico, npr. ''glej Sliko \ref{pic
 
 
 
-\section{Formati slik}
+\section{Zapisi slik}
 
-V  dokument \LaTeX\ lahko vključimo slike različnih formatov, tako
-bitne slike kot vektorske slike. Najbolj primerne so slike v formatu {\tt .pdf}, saj je tudi samo
-oblikovano besedilo v tem formatu, in slike v formatu {\tt .jpeg}.
-Slika~\ref{pic1} je npr. v formatu {\tt .jpeg}.
+V  dokument \LaTeX\ lahko vključimo slike različnih zapisov, tako
+bitne kot vektorske slike. Najbolj primerne so slike v zapisu {\tt .pdf}, saj je tudi samo oblikovano besedilo v tem formatu. Če vključujete fotografije, uporabite slike v zapisu {\tt .jpeg}. Slika~\ref{pic1} je npr. v formatu {\tt .jpeg}. Za zaslonske izrise uporabljajte slike z brezizgubno kompresijo, najbolje v zapisu {\tt .png}.
 
 \begin{figure}[htb]
 \begin{center}
@@ -521,8 +520,11 @@ Slika~\ref{pic1} je npr. v formatu {\tt .jpeg}.
 
 Vsaki sliki ali tabeli moramo dodati podnapis, ki na kratko pojasnjuje, kaj je na sliki ali tabeli. 
 Če nekdo le prelista diplomsko delo, naj bi že iz slik in njihovih podnapisov lahko na grobo razbral, kakšno temo naloga obravnava.
+Podnapisi slik so pod slikami, tabel pa nad tabelami.
 
-Če slike povzamemo iz drugih virov, potem se moramo v podnapisu k taki sliki sklicevati na ta vir!
+Če slike povzamemo iz drugih virov, potem se moramo v podnapisu k taki sliki sklicevati na ta vir! Slike iz drugih virov vključujte le, če ste za te pridobili dovoljenje založnika, slike iz spletnih virov pa le, če so te objavljene pod licenco, ki dovoljuje vključevanje slik v druga tiskana gradiva. 
+
+Slike naj imajo oznake v jeziku diplomske naloge. Če pišete diplomsko nalogo v slovenščini, naj bodo oznake na slikah v tem jeziku.
 
 
 \chapter{Struktura strokovnih besedil}
