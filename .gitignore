@@ -1,0 +1,8 @@
+*.aux
+*.log
+*.syntex.gz
+*.toc
+*.bbl
+*.blg
+*.out
+*.xmpi
